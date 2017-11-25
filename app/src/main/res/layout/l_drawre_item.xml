@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ir.aspacrm.my.app.mahanet.component.PersianTextViewNormal
+        android:id="@+id/txtTitle"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/size_font_small"
+        android:textColor="@color/back_drawer"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:gravity="right"
+        android:text="TextView" />
+
+    <ImageView
+
+        android:layout_marginRight="16dp"
+        android:id="@+id/imgImage"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"/>
+</LinearLayout>

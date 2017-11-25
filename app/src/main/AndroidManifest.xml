@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.jahanmir.aspa">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- <uses-permission android:Name="android.permission.CALL_PHONE"/> -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+
+        android:name="ir.jahanmir.aspa.G"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name="ir.jahanmir.aspa.ActivitySplash"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityStarter"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name="ir.jahanmir.aspa.ActivitySearchISP"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityLogin"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityMain0"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityPayments"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowFactors"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowConnections"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowTickets"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowTicketDetails"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowGraph"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowUserInfo"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowNews"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowNotify"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowFeshfeshe"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowClubScores"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowFactorDetail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivitySendTiket"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowCurrentService"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowSingleNews"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowSingleNotify"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityChargeOnline"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityChargeOnlineAddiBashgah"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityChargeOnlineGroup"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityChargeOnlineGroupPackage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityChargeOnlineCategory"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowPackageFactorDetail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowBankList"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityChargeOnlineTamdid"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityChangePassword"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityUploadDocuments"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityRegisterForm"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name="ir.jahanmir.aspa.ActivityShowTrafficeSplite"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="ir.jahanmir.aspa.ActivityBrowser" />
+
+        <!-- Receiver -->
+        <receiver
+            android:name="ir.jahanmir.aspa.classes.CheckNotification"
+            android:enabled="true" />
+        <receiver
+            android:name="ir.jahanmir.aspa.classes.NetworkChangeReceiver"
+            android:label="NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ir.jahanmir.aspa.classes.BootCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Firebase Notifications -->
+        <service android:name="ir.jahanmir.aspa.classes.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="ir.jahanmir.aspa.classes.firebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- Firebase Notifications -->
+
+
+        <!-- initialize ActiveAndroid DB -->
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="Local.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="6" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="                 .model.User,                 .model.Account,                 .model.ClubScore,                 .model.Connection,                 .model.Factor,                 .model.FactorDetail,                 .model.Feshfeshe,                 .model.Graph,                 .model.Info,                 .model.License,                 .model.News,                 .model.Notify,                 .model.Payment,                 .model.Ticket,                 .model.TicketDetail                 .model.Unit" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+
+    </application>
+
+</manifest>

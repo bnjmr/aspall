@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:id="@+id/layMainDialog"
+              android:background="@color/back_items"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_gravity="center"
+                   android:id="@+id/imgCloseDialog"
+                   android:layout_margin="3dp"
+                   android:src="@drawable/ic_arrow_down"
+                   android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="match_parent"
+                android:text="درباره ما"
+                android:gravity="center"
+                android:textSize="@dimen/size_font_very_small"
+                android:typeface="serif"
+                android:textColor="@color/text_color_items"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="match_parent"
+                android:text=""
+                android:id="@+id/txtCompanyUrl"
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/size_font_very_very_small"
+                android:textColor="@color/text_color_items"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="match_parent"
+                android:text=""
+                android:gravity="right"
+                android:id="@+id/txtCompanyDetail"
+                android:typeface="serif"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="40dp"
+                android:textSize="@dimen/size_font_very_very_small"
+                android:textColor="@color/text_color_items"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <!--<TextView android:layout_width="match_parent"-->
+              <!--android:layout_marginLeft="20dp"-->
+              <!--android:layout_marginRight="20dp"-->
+              <!--android:layout_marginTop="5dp"-->
+              <!--android:id="@+id/txtShowErrorMessage"-->
+              <!--android:textColor="@color/colorAccent"-->
+              <!--android:typeface="sans"-->
+              <!--android:textSize="@dimen/size_font_very_very_small"-->
+              <!--android:layout_height="wrap_content"/>-->
+</LinearLayout>

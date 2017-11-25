@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:padding="@dimen/all_padding">
+
+        <include layout="@layout/toolbar" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/layShowFactor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+
+                                    android:layout_height="match_parent"
+                                    android:background="@color/color_back"
+                                    android:gravity="center"
+                                    android:orientation="horizontal"
+                                    android:padding="3dp">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewThin
+                                        android:id="@+id/txtFactorDes"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="10dp"
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_marginTop="10dp"
+                                        android:text="نامشخص"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_very_small" />
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:layout_width="@dimen/box_size"
+                                    android:layout_height="@dimen/box_size"
+                                    android:layout_gravity="right"
+                                    android:background="@color/back_main" />
+                            </FrameLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#197e87"
+                                android:gravity="right|center_vertical"
+                                android:minHeight="40dp">
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    android:id="@+id/txtFactorCode"
+                                    style="@style/txtFactorDetailValue" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    style="@style/txtFactorDetailTitle"
+                                    android:text="شماره فاکتور" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/color_back"
+                                android:gravity="right|center_vertical"
+                                android:minHeight="40dp">
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    android:id="@+id/txtFactorStartDate"
+                                    style="@style/txtFactorDetailValue" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    style="@style/txtFactorDetailTitle"
+                                    android:text="تاریخ شروع" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#197e87"
+                                android:gravity="right|center_vertical"
+                                android:minHeight="40dp">
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    android:id="@+id/txtFactorGheymatPaye"
+                                    style="@style/txtFactorDetailValue" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    style="@style/txtFactorDetailTitle"
+                                    android:text="قیمت پایه" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/color_back"
+                                android:gravity="right|center_vertical"
+                                android:minHeight="40dp">
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    android:id="@+id/txtFactorGheymat"
+                                    style="@style/txtFactorDetailValue" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    style="@style/txtFactorDetailTitle"
+                                    android:text="قیمت" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#197e87"
+                                android:gravity="right|center_vertical"
+                                android:minHeight="40dp">
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    android:id="@+id/txtFactorMaliat"
+                                    style="@style/txtFactorDetailValue" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    style="@style/txtFactorDetailTitle"
+                                    android:text="مالیات" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/color_back"
+                                android:gravity="right|center_vertical"
+                                android:minHeight="40dp">
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    android:id="@+id/txtFactorTakhfif"
+                                    style="@style/txtFactorDetailValue" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    style="@style/txtFactorDetailTitle"
+                                    android:text="تخفیف" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#197e87"
+                                android:gravity="right|center_vertical"
+                                android:minHeight="40dp">
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    android:id="@+id/txtFactorMablaghePardakhti"
+                                    style="@style/txtFactorDetailValue" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    style="@style/txtFactorDetailTitle"
+                                    android:text="مبلغ پرداختی" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/color_back"
+                                android:gravity="right|center_vertical"
+                                android:minHeight="40dp">
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    android:id="@+id/txtDes"
+                                    style="@style/txtFactorDetailValue" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    style="@style/txtFactorDetailTitle"
+                                    android:text="توشیحات" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/layPay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:clickable="true"
+                        android:foreground="@drawable/ripple_list_item"
+                        android:gravity="center"
+                        android:minHeight="40dp"
+                        android:minWidth="100dp"
+                  >
+
+                        <LinearLayout
+                            android:background="@color/color_back_btn_orange"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="@dimen/box_size"
+                                android:src="@drawable/button_image" />
+                            <ir.jahanmir.aspa.component.PersianTextViewThin
+                                android:id="@+id/txtPay"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="پرداخت"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/size_font_small" />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="@dimen/box_size"
+                                android:src="@drawable/button_image" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                android:id="@+id/txtShowMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/text_color_items"
+                android:textSize="@dimen/size_font_very_small"
+                android:typeface="sans"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+
+        <include layout="@layout/lay_back" />
+    </LinearLayout>
+
+</FrameLayout>

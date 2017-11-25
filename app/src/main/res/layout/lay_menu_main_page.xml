@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+    <!--<View android:layout_width="match_parent"-->
+    <!--android:layout_height="0.5dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="@color/light_grey"/>-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="@color/account_info_background"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="false"
+        app:contentPaddingBottom="0dp"
+        app:contentPaddingLeft="0dp"
+        app:contentPaddingRight="0dp"
+        app:contentPaddingTop="0dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgUserInfo"
+                android:layout_width="@dimen/size_image_small"
+                android:layout_height="@dimen/size_image_small"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/ripple_light_oval"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_person_white_48dp" />
+
+            <ImageView
+                android:id="@+id/imgChangePassword"
+                android:layout_width="@dimen/size_image_small"
+                android:layout_height="@dimen/size_image_small"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/ripple_light_oval"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_lock_white_48dp" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgNotification"
+                    android:layout_width="@dimen/size_image_small"
+                    android:layout_height="@dimen/size_image_small"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/ripple_light_oval"
+                    android:clickable="true"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_notifications_white_48dp" />
+
+                <LinearLayout
+                    android:id="@+id/layUnSeenNotify"
+                    android:layout_width="@dimen/size_layBack_notify_child_slide"
+                    android:layout_height="@dimen/size_layBack_notify_child_slide"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/circle_background"
+                    android:orientation="vertical">
+
+                    <ir.aspacrm.my.app.mahanet.component.SizeAdjustingTextView
+                        android:id="@+id/txtUnSeenNotify"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="999"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_font_very_very_small"
+                        android:typeface="serif" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgNews"
+                    android:layout_width="@dimen/size_image_small"
+                    android:layout_height="@dimen/size_image_small"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/ripple_light_oval"
+                    android:clickable="true"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_rss_feed_48dp_white" />
+
+                <LinearLayout
+                    android:id="@+id/layUnSeenNews"
+                    android:layout_width="@dimen/size_layBack_notify_child_slide"
+                    android:layout_height="@dimen/size_layBack_notify_child_slide"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/circle_background"
+                    android:orientation="vertical">
+
+                    <ir.aspacrm.my.app.mahanet.component.SizeAdjustingTextView
+                        android:id="@+id/txtUnSeenNews"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="555"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_font_very_very_small"
+                        android:typeface="serif" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imgCompanyInfo"
+                android:layout_width="@dimen/size_image_small"
+                android:layout_height="@dimen/size_image_small"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/ripple_light_oval"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_info_white_48dp" />
+
+            <ImageView
+                android:id="@+id/imgLogout"
+                android:layout_width="@dimen/size_image_small"
+                android:layout_height="@dimen/size_image_small"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/ripple_light_oval"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_exit_to_app_white_48dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

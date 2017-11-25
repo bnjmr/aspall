@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "630806574407",
+    "firebase_url": "https://araax-450fc.firebaseio.com",
+    "project_id": "araax-450fc",
+    "storage_bucket": "araax-450fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630806574407:android:cc7ab05e8da0b300",
+        "android_client_info": {
+          "package_name": "ir.jahanmir.araax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630806574407-s462ctlcr9iug4fvfopogn4rq475f2tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCATNyoNOxyRh728df_qqIkdr3uH4t_iwM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

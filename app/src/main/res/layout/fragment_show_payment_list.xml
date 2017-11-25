@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!-- layExpandPayment -->
+                <LinearLayout
+                    android:id="@+id/layExpandPayment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <include layout="@layout/lay_make_payment" />
+                </LinearLayout>
+
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/lstPayment"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtShowMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_font_very_small"
+                android:typeface="sans" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/actionBtnPayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="24dp"
+                android:clickable="true"
+                android:src="@drawable/sv_plus_white"
+                android:visibility="gone"
+                app:backgroundTint="@color/colorAccent" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layBtnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="16dp"
+            android:background="@drawable/ripple_list_item"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/back_orange" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="6dp"
+                android:text="بازگشت"
+                android:textColor="@color/txt_blue" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="3dp"
+        android:background="@color/back_loading_color"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.pnikosis.materialishprogress.ProgressWheel
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="5dp"
+            app:matProg_barColor="@color/white"
+            app:matProg_progressIndeterminate="true" />
+
+        <ir.jahanmir.aspa.component.PersianTextViewThin
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:text="لطفا صبر کنید"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_font_very_very_small" />
+    </LinearLayout>
+</FrameLayout>
+

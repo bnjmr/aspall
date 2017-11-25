@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layMainDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_back_btn_orange"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgCloseDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:src="@drawable/ic_expand_more_purpule_36dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="بروزرسانی"
+            android:textColor="@color/back_orange_btn"
+            android:textSize="@dimen/size_font_very_small"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="نسخه جدید این نرم افزار آماده به روز رسانی می باشد."
+            android:textColor="@color/text_color_items"
+            android:textSize="@dimen/size_font_very_very_small"
+            android:typeface="serif" />
+
+        <ir.jahanmir.aspa.component.PersianTextViewThin
+            android:id="@+id/txtCurrentVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="نسخه فعلی : نامشخص"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/size_font_very_very_small"
+            android:typeface="serif" />
+
+        <ir.jahanmir.aspa.component.PersianTextViewThin
+            android:id="@+id/txtNewVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="نسخه جدید : نامشخص"
+            android:textColor="@color/txt_blue"
+            android:textSize="@dimen/size_font_very_very_small"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/layBtnCancel"
+            layout="@layout/lay_btn_cancel" />
+
+        <include
+            android:id="@+id/layBtnUpdate"
+            layout="@layout/lay_btn_ok" />
+    </LinearLayout>
+
+
+</LinearLayout>

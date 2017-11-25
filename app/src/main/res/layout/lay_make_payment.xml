@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_back_btn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="در این قسمت مبلغ واریزی خود را وارد کرده، سپس دکمه پرداخت را بزنید."
+                android:textColor="@color/text_color_items"
+                android:textSize="@dimen/size_font_very_small"
+                android:typeface="sans" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_weight="1"
+                        android:minHeight="36dp"
+                        android:gravity="right|center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_marginLeft="6dp"
+                            android:id="@+id/layBtnPay"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@color/color_back_btn_orange"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/box_size"
+                                android:layout_gravity="center"
+                                android:src="@drawable/button_image" />
+
+                            <ir.jahanmir.aspa.component.PersianTextViewThin
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+
+                                android:layout_marginRight="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:minHeight="25dp"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:singleLine="true"
+                                android:text="پرداخت"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/size_font_very_small"
+                                android:typeface="serif" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/box_size"
+                                android:layout_gravity="center"
+                                android:src="@drawable/button_image" />
+                        </LinearLayout>
+
+                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="5dp"
+                            android:text="ریال"
+                            android:textColor="@color/text_color_items"
+                            android:textSize="@dimen/size_font_very_small"
+                            android:typeface="sans" />
+
+                        <com.ctrlplusz.anytextview.AnyEditTextView
+                            android:id="@+id/edtPayment"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="1"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:hint="0"
+                            android:inputType="number"
+                            android:maxLength="15"
+                            android:minWidth="100dp"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:singleLine="true"
+                            android:textColor="@color/back_main"
+                            android:textColorHint="@color/light_grey"
+                            android:textSize="@dimen/size_font_default"
+                            app:typeface="biran.ttf" />
+
+                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="مبلغ"
+                            android:textColor="@color/text_color_items"
+                            android:textSize="@dimen/size_font_very_small"
+                            android:typeface="sans" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+<ImageView
+    android:background="@color/back_main"
+    android:layout_gravity="right"
+    android:layout_width="@dimen/box_size"
+    android:layout_height="@dimen/box_size" />
+
+</FrameLayout>
+

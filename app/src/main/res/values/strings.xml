@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="google_map_api_key">AIzaSyDN9htiF-F84OF8-1Xx7glmIT0CrADtW5c</string>
+
+    <string name="app_name">اسپا</string>
+    <string name="values_folder">values</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">رمز عبور</string>
+    <string name="profile">پروفایل </string>
+    <string name="connectionReport">ریز مصرف</string>
+    <string name="onlineSharj">شارژ آنلاین</string>
+    <string name="payReport">پرداخت ها</string>
+    <string name="consumechart">نمودار مصرف</string>
+    <string name="speedTest">تست سرعت</string>
+    <string name="tickets">تیکت ها</string>
+    <string name="inviteFriends">دعوت دوستان</string>
+    <string name="pointReports">سوابق امتیاز</string>
+    <string name="messages">پیغام ها</string>
+    <string name="games">بازی</string>
+    <string name="spesioansuggestion">پیشنهاد ویژه</string>
+    <string name="exit">خروج</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="current_service">سرویس فعلی شما: </string>
+    <string name="connection_status">وضعیت اتصال : </string>
+    <string name="taraze_mali">تراز مالی دوره : </string>
+    <string name="expired">منقضی!</string>
+    <string name="temporary_connection">وصل موقت</string>
+    <string name="enter">ورود</string>
+    <string name="rials">ریال</string>
+    <string name="remaining_days"> تا انقضا </string>
+    <string name="online">آنلاین</string>
+    <string name="offline">آفلاین</string>
+    <string name="special_offer">پیشنهاد ویژه</string>
+    <string name="finish_current_feshfeshe">اتمام فشفشه</string>
+    <string name="support">پشتیبانی</string>
+    <string name="tickets_details">جزییات تیکت</string>
+    <string name="current_package_name">سرویس فعلی شما : %1$s</string>
+    <string name="news">اخبار</string>
+    <string name="error">خطا</string>
+    <string name="input_incorrect_error">لطفا مبلغ معتبری وارد کنید</string>
+    <string name="item_available_in_future">این آیتم به زودی در دسترس قرار خواهد گرفت</string>
+    <string name="alert">پیغام</string>
+    <string name="send_failure">در ارسال پیام مشکلی به وجود آمد</string>
+    <string name="choose_sender">اشتراک گذاری با</string>
+    <string name="gpsmessage">برای دسترسی به موقعیت شما و گرفتن امتیاز، لازم است GPS  خودرا روشن کنید</string>
+    <string name="turnon">روشن کردن</string>
+    <string name="cancel">انصراف</string>
+    <string name="read_news">خواندن خبر</string>
+    <string name="bank_portal">درگاه پرداخت بانک %1$s</string>
+    <string name="no_new_notifies">پیغام جدیدی موجود نیست</string>
+    <string name="show_detail">نمایش جزییات</string>
+    <string name="feshfeshe">فشفشه</string>
+    <string name="traffic_splite">تقسیم ترافیک</string>
+    <string name="google_maps_key">AIzaSyARw_h2gwDBSL-8C8935qBKZOe9BitWQ1Q</string>
+    <string name="remain_traffic">مگابایت تا پایان سرویس</string>
+    <string name="current_traffic"> ترافیک فعلی : </string>
+    <string name="change_password">تغییر رمز</string>
+    <string name="factors">صورت حساب</string>
+    <string name="connections">ریز مصرف</string>
+    <string name="upload_doc">بارگذاری مدارک</string>
+    <string-array name="sp_olaviat_items">
+        <item>کم</item>
+        <item>متوسط</item>
+        <item>زیاد</item>
+    </string-array>
+</resources>

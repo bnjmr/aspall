@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layToolbarMain"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:background="@color/color_club"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_gravity="right|top"
+            android:background="#334c62" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_gravity="left|bottom"
+            android:layout_marginRight="@dimen/box_size"
+            android:background="#334c62" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="3dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgIcon"
+                android:src="@drawable/ic_invite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <ir.jahanmir.aspa.component.PersianTextViewThin
+                android:id="@+id/txtName"
+                android:text="شارژ آنلاین"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/text_color_items"
+                android:layout_marginBottom="@dimen/box_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

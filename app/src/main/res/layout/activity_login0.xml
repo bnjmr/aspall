@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_blue"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/all_padding">
+
+
+        <TextView
+            android:id="@+id/txtIspName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_font_very_very_small"
+            android:typeface="sans"
+            android:visibility="invisible" />
+
+        <FrameLayout
+            android:id="@+id/layContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:minLines="2"
+                        android:textColor="@color/back_items"
+                        android:textStyle="bold"
+                        android:typeface="sans"
+                        android:visibility="invisible" />
+
+                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="ورود به سیستم"
+                        android:textColor="@color/back_items"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/row_2_2"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <ir.jahanmir.aspa.component.CustomEditText
+                        android:id="@+id/edtUsername"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_edittext_username"
+                        android:gravity="right|center"
+                        android:hint="@string/username"
+                        android:imeOptions="actionNext"
+                        android:paddingRight="@dimen/box_size"
+                        android:singleLine="true"
+                        android:textColor="@color/back_items"
+                        android:textColorHint="@color/back_items"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="monospace" />
+
+                    <!--</android.support.design.widget.TextInputLayout>-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/row_2_3"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+
+                    <ir.jahanmir.aspa.component.CustomEditText
+                        android:id="@+id/edtPassword"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_edittext_pass"
+                        android:gravity="right|center"
+                        android:hint="@string/password"
+                        android:imeOptions="actionGo"
+                        android:inputType="textPassword"
+                        android:paddingRight="@dimen/box_size"
+                        android:singleLine="true"
+                        android:textColor="@color/back_items"
+                        android:textColorHint="@color/back_items"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="monospace" />
+                    <!--</android.support.design.widget.TextInputLayout>-->
+                </LinearLayout>
+
+                <ir.jahanmir.aspa.component.PersianTextViewBold
+                    android:id="@+id/txtShowErrorMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/size_font_very_very_small"
+                    android:typeface="sans" />
+
+                <include
+                    android:id="@+id/layBtnLogin"
+                    layout="@layout/lay_btn_login" />
+
+                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                    android:id="@+id/txtForgetPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="40dp"
+                    android:padding="5dp"
+                    android:text="کلمه عبور خود را فراموش کرده اید؟"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_font_very_small"
+                    android:typeface="sans" />
+
+                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                    android:id="@+id/txtRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="ثبت نام مشترک جدید"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_font_very_small"
+                    android:typeface="sans"
+                    android:visibility="gone" />
+
+
+                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                    android:id="@+id/txtSearchIsp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="12dp"
+                    android:text="جستجوی شرکت جدید"
+                    android:textColor="#06c6ec"
+                    android:textSize="@dimen/size_font_very_small"
+                    android:typeface="sans" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layForgetPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="فراموشی رمز عبور"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ir.jahanmir.aspa.component.PersianTextViewThin
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="در صورت فراموش کردن رمزعبور، می توانید با وارد کردن نام کاربری و شماره موبایل خود، رمز عبور جدید را دریافت کنید"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="sans" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/row_2_2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <ir.jahanmir.aspa.component.CustomEditText
+                        android:id="@+id/edtUsernameForget"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_edittext_username"
+                        android:gravity="right|center"
+                        android:hint="نام کاربری"
+                        android:imeOptions="actionNext"
+                        android:paddingRight="@dimen/box_size"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/back_items"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="sans" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/row_2_3"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ir.jahanmir.aspa.component.CustomEditText
+                        android:id="@+id/edtMobileNumberForget"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_edittext_mobile"
+                        android:gravity="right|center"
+                        android:hint="شماره موبایل"
+                        android:imeOptions="actionGo"
+                        android:inputType="numberDecimal"
+                        android:maxLength="10"
+                        android:paddingRight="@dimen/box_size"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/back_items"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="sans" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtShowErrorMessageForgetPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/size_font_very_very_small"
+                    android:typeface="sans" />
+
+                <include
+                    android:id="@+id/layBtnForgetPassword"
+                    layout="@layout/lay_btn_login" />
+
+                <TextView
+                    android:id="@+id/txtBackToLoginPage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="40dp"
+                    android:text="بازگشت"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_font_very_small"
+                    android:typeface="sans" />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:id="@+id/layBtnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/color_back_btn_orange">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/box_size"
+                    android:src="@drawable/button_image" />
+
+                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                    android:id="@+id/txtValue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:minHeight="36dp"
+                    android:minWidth="88dp"
+                    android:singleLine="true"
+                    android:text="ثبت نام"
+                    android:textColor="@color/white"
+                    android:typeface="serif" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/box_size"
+                    android:src="@drawable/button_image" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <ir.jahanmir.aspa.component.PersianTextViewNormal
+            android:id="@+id/txtAspaCrm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="12dp"
+            android:textColor="#22b5ff"
+            android:text="سامانه اسپا"
+            android:textSize="@dimen/size_font_very_small"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

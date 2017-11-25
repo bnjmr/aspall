@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/all_padding"
+        android:background="@drawable/background"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.96"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/layShowMenuItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal"
+                                android:padding="3dp">
+
+                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                    android:layout_width="0dp"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_weight="1"
+                                    android:ems="1000"
+                                    android:text="یکی از گزینه های زیر را انتخاب کنید."
+                                    android:textColor="@color/text_color_items"
+                                    android:typeface="sans" />
+
+                            </LinearLayout>
+
+                            <!-- layBtnTamdid Service  -->
+                            <LinearLayout
+
+
+                                android:id="@+id/layTamdidService"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:id="@+id/layBtnTamdidService"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="3dp"
+                                    android:background="@color/color_back_btn_orange"
+                                    android:clickable="true"
+                                    android:foreground="@drawable/ripple_list_item">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:minHeight="36dp"
+                                        android:minWidth="88dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingRight="5dp"
+                                        android:singleLine="true"
+                                        android:text="تمدید سرویس فعلی"
+                                        android:textColor="@color/text_color_items"
+                                        android:typeface="serif" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <!-- layBtnTaghir Service  -->
+                            <LinearLayout
+                                android:id="@+id/layTaghirService"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center|right"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:id="@+id/layBtnTaghirService"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginBottom="3dp"
+                                    android:background="@color/color_back_btn_orange"
+                                    android:clickable="true">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:minHeight="36dp"
+                                        android:minWidth="88dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingRight="5dp"
+                                        android:singleLine="true"
+                                        android:text="خرید سرویس جدید"
+                                        android:textColor="@color/text_color_items"
+                                        android:typeface="serif" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <!-- layBtnTraffic -->
+                            <LinearLayout
+                                android:id="@+id/layTraffic"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:id="@+id/layBtnTraffic"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginBottom="3dp"
+                                    android:background="@color/color_back_btn_orange"
+
+                                    android:clickable="true">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:minHeight="36dp"
+                                        android:minWidth="88dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingRight="5dp"
+                                        android:singleLine="true"
+                                        android:text="ترافیک اضافه"
+                                        android:textColor="@color/text_color_items"
+                                        android:typeface="serif" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <!-- layBtnFeshfeshe -->
+                            <LinearLayout
+                                android:id="@+id/layFeshfeshe"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:id="@+id/layBtnFeshfeshe"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginBottom="3dp"
+                                    android:background="@color/color_back_btn_orange"
+                                    android:clickable="true">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:minHeight="36dp"
+                                        android:minWidth="88dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingRight="5dp"
+                                        android:singleLine="true"
+                                        android:text="فشفشه"
+                                        android:textColor="@color/text_color_items"
+                                        android:typeface="serif" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <!-- layBtnIP -->
+                            <LinearLayout
+                                android:id="@+id/layIP"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:id="@+id/layBtnIP"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginBottom="3dp"
+                                    android:background="@color/color_back_btn_orange"
+                                    android:clickable="true">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:minHeight="36dp"
+                                        android:minWidth="88dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingRight="5dp"
+                                        android:singleLine="true"
+                                        android:text="خرید آی پی"
+                                        android:textColor="@color/white"
+                                        android:typeface="serif" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                            <!-- layBtnTaghsimTrafic -->
+                            <LinearLayout
+                                android:id="@+id/layTaghsim_Trafi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:id="@+id/layBtnTaghsimTrafic"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginBottom="3dp"
+                                    android:background="@color/color_back_btn_orange"
+                                    android:clickable="true">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:minHeight="36dp"
+                                        android:minWidth="88dp"
+                                        android:paddingLeft="5dp"
+                                        android:paddingRight="5dp"
+                                        android:singleLine="true"
+                                        android:text="تقسیم ترافیک"
+                                        android:textColor="@color/text_color_items"
+                                        android:typeface="serif" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+
+                                        android:layout_margin="@dimen/box_size"
+                                        android:src="@drawable/button_image" />
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginBottom="12dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                android:id="@+id/txtShowMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/text_color_items"
+                android:textSize="@dimen/size_font_very_small"
+                android:typeface="sans"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <include layout="@layout/lay_back" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

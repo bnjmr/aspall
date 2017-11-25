@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:padding="@dimen/all_padding">
+
+        <include layout="@layout/toolbar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/lstBankList"
+                android:layoutDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                android:id="@+id/txtShowMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_font_very_small"
+                android:typeface="sans"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/lay_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="3dp"
+        android:background="@color/back_loading_color"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.pnikosis.materialishprogress.ProgressWheel
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="5dp"
+            app:matProg_barColor="@color/white"
+            app:matProg_progressIndeterminate="true" />
+
+        <ir.jahanmir.aspa.component.PersianTextViewThin
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:text="لطفا صبر کنید"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_font_very_very_small" />
+    </LinearLayout>
+</FrameLayout>

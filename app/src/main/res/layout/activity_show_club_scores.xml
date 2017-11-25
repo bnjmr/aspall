@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:padding="@dimen/all_padding">
+
+        <include layout="@layout/toolbar" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/layTotalClubScore"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_toolbar_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_back"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ir.jahanmir.aspa.component.PersianTextViewThin
+                    android:id="@+id/txtTotalClubScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="مجموع امتیازها : "
+                    android:textColor="@color/text_color_items"
+                    android:textSize="@dimen/size_font_very_small" />
+
+                <ImageView
+                    android:layout_width="@dimen/box_size"
+                    android:layout_height="@dimen/box_size"
+                    android:layout_gravity="right"
+                    android:background="@color/back_main" />
+
+
+            </FrameLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/lstClubScore"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1" />
+
+
+                    </LinearLayout>
+
+                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        android:id="@+id/txtShowMessage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text=""
+                        android:textColor="@color/text_color_items"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="sans"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+            <include layout="@layout/lay_back" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

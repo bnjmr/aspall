@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layMainDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_alerts"
+    android:orientation="vertical">
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/layCloseDialog"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imgCloseDialog"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_margin="3dp"-->
+    <!--android:src="@drawable/ic_arrow_down" />-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ir.aspacrm.my.app.mahanet.component.PersianTextViewNormal
+            android:id="@+id/txtMessageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/back_orange_btn"
+            android:gravity="center"
+            android:minHeight="30dp"
+            android:minWidth="70dp"
+            android:padding="5dp"
+            android:text="پیغام"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_font_very_small"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <net.kianoni.fontloader.TextView
+            android:id="@+id/txtMessageDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:text=""
+            android:textColor="@color/text_color_items"
+            android:textSize="@dimen/size_font_small"
+            app:fontFile="fonts/biran.ttf" />
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/layBtnStartFactor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:foreground="@drawable/ripple_list_item"
+        android:minWidth="120dp"
+        app:cardBackgroundColor="@color/back_orange_btn"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ir.aspacrm.my.app.mahanet.component.PersianTextViewThin
+                android:id="@+id/txtPackagePrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="36dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:text="شروع کردن"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_font_very_small"
+                android:typeface="serif" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+</LinearLayout>

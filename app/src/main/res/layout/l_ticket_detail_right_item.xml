@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/cardTicketMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="2.5dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2.5dp"
+        android:background="@color/color_back">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2.5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                android:id="@+id/txtTicketDescription"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:editable="true"
+                                android:ellipsize="end"
+                                android:gravity="right"
+                                android:textColor="@color/text_color_items"
+                                android:textSize="@dimen/size_font_very_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2.5dp"
+                        android:layout_marginTop="2.5dp"
+                        android:gravity="end"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="3dp"
+                            android:orientation="vertical">
+
+                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                android:id="@+id/txtTicketState"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="left|center_vertical"
+                                android:text="وضعیت"
+                                android:textColor="@color/text_color_items"
+                                android:textSize="@dimen/size_font_very_small" />
+                        </LinearLayout>
+
+                        <include layout="@layout/lay_separate" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="3dp"
+                            android:orientation="vertical">
+
+                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                android:id="@+id/txtTicketDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical|left"
+                                android:text="1393/01/01 22:38"
+                                android:textColor="@color/text_color_items"
+                                android:textSize="@dimen/size_font_very_small"
+                                android:typeface="sans" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_gravity="right"
+            android:background="@color/back_main" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/box_size"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="@dimen/box_size"
+            android:background="@color/back_main" />
+    </FrameLayout>
+
+</LinearLayout>

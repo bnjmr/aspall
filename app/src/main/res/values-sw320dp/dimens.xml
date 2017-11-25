@@ -1,0 +1,30 @@
+<resources>
+
+
+    <!-- size font -->
+    <dimen name="size_font_very_very_very_small">8sp</dimen>
+    <dimen name="size_font_very_very_small">10sp</dimen>
+    <dimen name="size_font_very_small">12sp</dimen>
+    <dimen name="size_font_small">14sp</dimen>
+    <dimen name="size_font_default">16sp</dimen>
+    <dimen name="size_font_big">18sp</dimen>
+    <dimen name="size_font_very_big">20sp</dimen>
+
+    <!-- size image -->
+    <dimen name="size_image_very_small">18dp</dimen>
+    <dimen name="size_image_small">32dp</dimen>
+    <dimen name="size_image_default">48dp</dimen>
+    <dimen name="size_image_big">64dp</dimen>
+    <dimen name="size_image_very_big">85dp</dimen>
+
+    <dimen name="size_image_main_menu">64dp</dimen>
+    <dimen name="size_back_image_main_menu">85dp</dimen>
+
+    <dimen name="sv_image_size">20dp</dimen>
+
+    <!-- -->
+    <dimen name="progress_bar_width">12dp</dimen>
+
+    <dimen name="size_layBack_notify_child_slide">20dp</dimen>
+
+</resources>

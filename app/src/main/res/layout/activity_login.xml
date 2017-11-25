@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_blue"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.96"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imgIspLogo"
+            android:layout_width="@dimen/size_image_very_big"
+            android:layout_height="@dimen/size_image_very_big"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/txtIspName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_font_very_very_small"
+            android:typeface="sans" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/layContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/dark_grey"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:id="@+id/layLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="برای ورود به سامانه ابتدا نام کاربری و کلمه عبور خود را وارد نمایید سپس ورود را بزنید."
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="sans" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rounded_rectangle_edit_text"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ir.aspacrm.my.app.mahanet.component.CustomEditText
+                        android:id="@+id/edtUsername"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/ic_person_white_24dp"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="monospace" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rounded_rectangle_edit_text"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ir.aspacrm.my.app.mahanet.component.CustomEditText
+                        android:id="@+id/edtPassword"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_visibility_white_24dp"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/ic_lock_white_24dp"
+                        android:imeOptions="actionGo"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="monospace" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtShowErrorMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/size_font_very_very_small"
+                    android:typeface="sans" />
+
+                <include
+                    android:id="@+id/layBtnLogin"
+                    layout="@layout/lay_btn_login" />
+
+                <TextView
+                    android:id="@+id/txtForgetPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="کلمه عبور خود را فراموش کرده اید؟"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_font_very_small"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/txtRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="ثبت نام مشترک جدید"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_font_very_small"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/txtSearchIsp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="جستجوی شرکت جدید"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_font_very_small"
+                    android:typeface="sans" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layForgetPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:rotationY="180"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/size_image_very_very_small"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="2dp"
+                        android:scaleType="fitEnd"
+                        android:src="@drawable/ic_left_drawable_textview" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="در صورت فراموش کردن رمز عبور خود میتوانید با وارد کردن نام کاربری و شماره موبایل خود رمز عبور جدید را دریافت کنید. "
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="sans" />
+
+                    <ImageView
+                        android:layout_width="@dimen/size_image_very_very_small"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="2dp"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/ic_right_drawable_textview" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rounded_rectangle_edit_text"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ir.aspacrm.my.app.mahanet.component.CustomEditText
+                        android:id="@+id/edtUsernameForget"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/ic_person_white_24dp"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rounded_rectangle_edit_text"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ir.aspacrm.my.app.mahanet.component.CustomEditText
+                        android:id="@+id/edtMobileNumberForget"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/ic_phone_android_white_24dp"
+                        android:hint="9XXXXXXXXX"
+                        android:imeOptions="actionGo"
+                        android:inputType="numberDecimal"
+                        android:maxLength="10"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtShowErrorMessageForgetPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/size_font_very_very_small"
+                    android:typeface="sans" />
+
+                <include
+                    android:id="@+id/layBtnForgetPassword"
+                    layout="@layout/lay_btn_login" />
+
+                <TextView
+                    android:id="@+id/txtBackToLoginPage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="بازگشت"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_font_very_small"
+                    android:typeface="sans" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/layLoading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtLoading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="5dp"
+                android:text="لطفا صبر کنید"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_font_very_very_small"
+                android:typeface="serif" />
+
+            <com.pnikosis.materialishprogress.ProgressWheel
+                android:id="@+id/progress_wheel"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="5dp"
+                app:matProg_barColor="@color/white"
+                app:matProg_progressIndeterminate="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02" />
+
+</LinearLayout>

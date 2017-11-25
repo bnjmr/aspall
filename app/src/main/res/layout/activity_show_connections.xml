@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/all_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbar" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/laySelect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_back"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="top"
+                        android:orientation="vertical">
+
+
+                        <Spinner
+                            android:id="@+id/spNetTypes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8sp"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/background_spinner"
+                            android:visibility="visible"
+                            tools:listitem="@layout/s_item_white" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="26dp"
+                            android:layout_marginRight="26dp"
+                            android:background="@color/red" />
+
+                        <LinearLayout
+                            android:id="@+id/layStartDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="26dp"
+                            android:layout_marginRight="26dp"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="2dp"
+                                    android:alpha=".4"
+                                    android:background="@drawable/ic_calendar" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                    android:id="@+id/txtStartDate"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="2dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:textColor="@color/text_color_items"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                    android:id="@+id/btnStart"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top|right"
+                                    android:gravity="top|right"
+                                    android:text="از تاریخ"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold" />
+
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/red" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layEndDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="26dp"
+                            android:layout_marginRight="26dp"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="2dp"
+                                    android:alpha=".4"
+                                    android:background="@drawable/ic_calendar"
+                                    android:padding="6dp" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                    android:id="@+id/txtEndDate"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="2dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:textColor="@color/text_color_items"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                    android:id="@+id/btnEndDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top|right"
+                                    android:gravity="top|right"
+                                    android:text="تا تاریخ"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/red" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/box_size"
+                        android:layout_marginTop="@dimen/box_size"
+                        android:background="@color/color_back_btn_orange"
+                        android:gravity="center"
+                        android:minHeight="36dp"
+                        android:minWidth="140dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/box_size"
+                            android:src="@drawable/button_image" />
+
+                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            android:id="@+id/btnFilter"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:lines="1"
+                            android:text="  جستجو "
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/box_size"
+                            android:src="@drawable/button_image" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/box_size"
+                    android:layout_height="@dimen/box_size"
+                    android:layout_gravity="right"
+                    android:background="@color/back_main" />
+            </FrameLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+
+                    android:layout_weight="1">
+
+
+                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        android:id="@+id/txtShowMessage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_font_very_small"
+                        android:typeface="sans"
+                        android:visibility="visible" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/lstConnection"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="center" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <include layout="@layout/lay_back" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</FrameLayout>
+

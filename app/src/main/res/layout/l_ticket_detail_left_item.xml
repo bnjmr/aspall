@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/cardTicketMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginBottom="2.5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="2.5dp"
+        android:background="@color/color_back_btn_orange">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2.5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="right"
+                            android:gravity="right"
+                            android:orientation="vertical">
+
+                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                android:id="@+id/txtTicketDescription"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:editable="true"
+                                android:ellipsize="end"
+                                android:gravity="end"
+                                android:textColor="@color/text_color_items"
+                                android:textSize="@dimen/size_font_very_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2.5dp"
+                        android:layout_marginTop="2.5dp"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="3dp"
+                                android:orientation="vertical">
+
+                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                    android:id="@+id/txtTicketState"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="right"
+                                    android:text="وضعیت"
+                                    android:textColor="@color/text_color_items"
+                                    android:textSize="@dimen/size_font_very_small" />
+                            </LinearLayout>
+
+
+                            <include layout="@layout/lay_separate" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="3dp"
+                                android:orientation="vertical">
+
+                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                    android:id="@+id/txtTicketDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="right"
+                                    android:text="1393/01/01 22:38"
+                                    android:textColor="@color/text_color_items"
+                                    android:textSize="@dimen/size_font_very_small"
+                                    android:typeface="sans" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_gravity="left"
+            android:background="@color/back_main" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/box_size"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/box_size"
+            android:background="@color/back_main" />
+    </FrameLayout>
+
+</LinearLayout>

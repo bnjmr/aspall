@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:padding="@dimen/all_padding">
+
+        <include layout="@layout/toolbar" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/layCurrentTrafficSplit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/color_back"
+                        android:gravity="end"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp">
+
+                        <ir.jahanmir.aspa.component.PersianTextViewThin
+                            android:id="@+id/txtCurrentTrafficSpliteExpireDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="5dp"
+                            android:gravity="center"
+                            android:text="زمان انقضا : "
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/size_font_very_small" />
+
+                        <ir.jahanmir.aspa.component.PersianTextViewThin
+                            android:id="@+id/txtCurrentTrafficSplitTraffic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="5dp"
+                            android:gravity="center"
+                            android:text="حجم باقیمانده : "
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/size_font_very_small" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp">
+
+
+                        <LinearLayout
+                            android:id="@+id/imgEndCurrentTrafficSplitRequest"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/box_size"
+                            android:layout_weight="1"
+                            android:background="@color/color_back_btn_orange"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="@dimen/box_size"
+                                android:src="@drawable/button_image" />
+
+                            <ir.jahanmir.aspa.component.PersianTextViewThin
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:minHeight="36dp"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:text="اتمام تقسیم ترافیک"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/size_font_very_small"
+                                android:typeface="serif" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="@dimen/box_size"
+                                android:src="@drawable/button_image" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/imgGoToMainTraffic"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/box_size"
+                            android:layout_weight="1"
+                            android:background="@color/color_back_btn_orange"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="@dimen/box_size"
+                                android:src="@drawable/button_image" />
+
+                            <ir.jahanmir.aspa.component.PersianTextViewThin
+                                android:id="@+id/txtPackagePrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:minHeight="36dp"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:text="رفتن به ترافیک اصلی"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/size_font_very_small"
+                                android:typeface="serif" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="@dimen/box_size"
+                                android:src="@drawable/button_image" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/box_size"
+                    android:layout_height="@dimen/box_size"
+                    android:layout_gravity="right"
+                    android:background="@color/back_main" />
+            </FrameLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/layBtnBack"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/lstTrafficSplit"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+
+                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                    android:id="@+id/txtShowMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_font_very_small"
+                    android:typeface="sans"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <include layout="@layout/lay_back" />
+    </LinearLayout>
+</FrameLayout>
+

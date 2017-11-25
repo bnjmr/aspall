@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- grid columns-->
+    <integer name="grid_columns">3</integer>
+    <integer name="grid_list_columns">1</integer>
+    <integer name="customer_id">2</integer>
+</resources>

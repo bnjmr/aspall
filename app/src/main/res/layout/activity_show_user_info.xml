@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:padding="@dimen/all_padding">
+
+    <include layout="@layout/toolbar" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/layBtnBack">
+
+            <LinearLayout
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="#1a7f88"
+                                    android:gravity="center"
+                                    android:minHeight="40dp"
+                                    android:padding="5dp">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                            android:id="@+id/txtUserFullName"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="left|center_vertical"
+                                            android:textColor="@color/text_color_items"
+                                            android:textSize="@dimen/size_font_very_small" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical|right"
+                                            android:text="نام مشترک"
+                                            android:textColor="@color/text_color_items"
+                                            android:textSize="@dimen/size_font_small"
+                                            android:typeface="sans" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+
+                                <ImageView
+                                    android:layout_width="@dimen/box_size"
+                                    android:layout_height="@dimen/box_size"
+                                    android:layout_gravity="right"
+                                    android:background="@color/back_main" />
+                            </FrameLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00afab"
+                                android:minHeight="40dp"
+                                android:padding="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:id="@+id/txtUsername"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left|center_vertical"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_very_small" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical|right"
+                                        android:text="شناسه کاربری"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_small"
+                                        android:typeface="sans" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#1a7f88"
+                                android:minHeight="40dp"
+                                android:padding="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:id="@+id/txtMobile"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left|center_vertical"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_very_small" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical|right"
+                                        android:text="شماره موبایل"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_small"
+                                        android:typeface="sans" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00afab"
+                                android:minHeight="40dp"
+                                android:padding="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:id="@+id/txtTarazMalli"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left|center_vertical"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_very_small"
+                                        app:fontFile="fonts/biran.ttf" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical|right"
+                                        android:text="تراز مالی"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_small"
+                                        android:typeface="sans" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#1a7f88"
+                                android:minHeight="40dp"
+                                android:padding="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:id="@+id/txtFirstConnection"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left|center_vertical"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_very_small"
+                                        app:fontFile="fonts/biran.ttf" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical|right"
+                                        android:text="اولین اتصال"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_small"
+                                        android:typeface="sans" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00afab"
+                                android:padding="5dp"
+                                android:visibility="gone">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:id="@+id/txtLastConnection"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left|center_vertical"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_very_small"
+                                        app:fontFile="fonts/biran.ttf" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical|right"
+                                        android:text="آخرین اتصال"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_small"
+                                        android:typeface="sans" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00afab"
+                                android:minHeight="40dp"
+                                android:padding="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:id="@+id/txtExpireDate"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left|center_vertical"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_very_small"
+                                        app:fontFile="fonts/biran.ttf" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical|right"
+                                        android:text="تاریخ انقضاء"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_small"
+                                        android:typeface="sans" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#1a7f88"
+                                android:gravity="center_vertical"
+                                android:minHeight="40dp"
+                                android:padding="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:id="@+id/txtNoeService"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left|center_vertical"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_very_small"
+                                        app:fontFile="fonts/biran.ttf" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical|right"
+                                        android:text="نوع سرویس"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_small"
+                                        android:typeface="sans" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00afab"
+                                android:minHeight="40dp"
+                                android:padding="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:id="@+id/txtStatus"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left|center_vertical"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_very_small"
+                                        app:fontFile="fonts/biran.ttf" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical|right"
+                                        android:text="وضعیت"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_small"
+                                        android:typeface="sans" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#1a7f88"
+                                android:minHeight="40dp"
+                                android:padding="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:id="@+id/txtNamayandeForush"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left|center_vertical"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_very_small"
+                                        app:fontFile="fonts/biran.ttf" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical|right"
+                                        android:text="نماینده فروش"
+                                        android:textColor="@color/text_color_items"
+                                        android:textSize="@dimen/size_font_small"
+                                        android:typeface="sans" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="5dp"
+                                android:layout_marginBottom="2.5dp"
+                                android:layout_marginTop="2.5dp"></LinearLayout>
+
+
+                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                android:id="@+id/txtShowErrorMessage"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="اطلاعات بروز نمیباشد."
+                                android:textColor="@color/text_color_items"
+                                android:textSize="@dimen/size_font_very_very_small"
+                                android:typeface="sans"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+
+                    <FrameLayout
+                        android:id="@+id/layBtnUploadDods"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/color_back_btn_orange"
+                        android:gravity="center"
+                        android:visibility="gone">
+
+                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            android:id="@+id/txtValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:minHeight="36dp"
+                            android:minWidth="88dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:singleLine="true"
+                            android:text=" بارگذاری مدارک"
+                            android:textColor="@color/white"
+                            android:typeface="serif" />
+
+                        <ImageView
+                            android:layout_width="@dimen/box_size"
+                            android:layout_height="@dimen/box_size"
+                            android:layout_gravity="right"
+                            android:background="@color/back_main" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/lay_back" />
+
+
+</LinearLayout>
