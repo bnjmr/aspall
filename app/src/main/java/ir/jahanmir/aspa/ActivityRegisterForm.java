@@ -128,7 +128,7 @@ public class ActivityRegisterForm extends AppCompatActivity {
         ViewGroup.LayoutParams layoutParams = new LinearLayout.LayoutParams(width, width);
         layToolbarMain.setLayoutParams(layoutParams);
         layToolbarMain.setBackgroundColor(getResources().getColor(R.color.color_charg_online));
-        imgIcon.setImageResource(R.drawable.ic_profile);
+        imgIcon.setImageResource(R.mipmap.ic_register);
         txtName.setText("ثبت نام");
 
     }
