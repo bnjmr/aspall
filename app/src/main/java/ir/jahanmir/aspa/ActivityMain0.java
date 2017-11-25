@@ -298,7 +298,7 @@ public class ActivityMain0 extends AppCompatActivity implements View.OnTouchList
 
     public void onEventMainThread(EventOnGetReperesenterURL reperesenterURL) {
         try {
-             String txt = "با این لینک تو ماهان نت ثبت نام کن و از اینترنت خوب لذت ببر";
+             String txt = "با این لینک ثبت نام کنید  . . ";
             Intent sendIntent = new Intent();
             sendIntent.setAction(Intent.ACTION_SEND);
             sendIntent.putExtra(Intent.EXTRA_TEXT, txt + "\n\n" + reperesenterURL.getRepresenterURL());
