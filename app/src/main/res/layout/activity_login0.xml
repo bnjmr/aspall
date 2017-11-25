@@ -50,7 +50,7 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                    <ir.jahanmir.araxx.component.PersianTextViewNormal
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -63,7 +63,7 @@
                         android:typeface="sans"
                         android:visibility="invisible" />
 
-                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                    <ir.jahanmir.araxx.component.PersianTextViewNormal
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -86,7 +86,7 @@
                     android:orientation="horizontal">
 
 
-                    <ir.jahanmir.aspa.component.CustomEditText
+                    <ir.jahanmir.araxx.component.CustomEditText
                         android:id="@+id/edtUsername"
                         style="@style/Widget.AppCompat.EditText"
                         android:layout_width="match_parent"
@@ -117,7 +117,7 @@
                     android:orientation="horizontal">
 
 
-                    <ir.jahanmir.aspa.component.CustomEditText
+                    <ir.jahanmir.araxx.component.CustomEditText
                         android:id="@+id/edtPassword"
                         style="@style/Widget.AppCompat.EditText"
                         android:layout_width="match_parent"
@@ -138,7 +138,7 @@
                     <!--</android.support.design.widget.TextInputLayout>-->
                 </LinearLayout>
 
-                <ir.jahanmir.aspa.component.PersianTextViewBold
+                <ir.jahanmir.araxx.component.PersianTextViewBold
                     android:id="@+id/txtShowErrorMessage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -153,7 +153,7 @@
                     android:id="@+id/layBtnLogin"
                     layout="@layout/lay_btn_login" />
 
-                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                <ir.jahanmir.araxx.component.PersianTextViewNormal
                     android:id="@+id/txtForgetPassword"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -165,7 +165,7 @@
                     android:textSize="@dimen/size_font_very_small"
                     android:typeface="sans" />
 
-                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                <ir.jahanmir.araxx.component.PersianTextViewNormal
                     android:id="@+id/txtRegister"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -177,7 +177,7 @@
                     android:visibility="gone" />
 
 
-                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                <ir.jahanmir.araxx.component.PersianTextViewNormal
                     android:id="@+id/txtSearchIsp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -206,7 +206,7 @@
                     android:layout_margin="10dp"
                     android:orientation="horizontal">
 
-                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                    <ir.jahanmir.araxx.component.PersianTextViewNormal
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -228,7 +228,7 @@
                     android:orientation="horizontal">
 
 
-                    <ir.jahanmir.aspa.component.PersianTextViewThin
+                    <ir.jahanmir.araxx.component.PersianTextViewThin
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -251,7 +251,7 @@
                     android:orientation="horizontal">
 
 
-                    <ir.jahanmir.aspa.component.CustomEditText
+                    <ir.jahanmir.araxx.component.CustomEditText
                         android:id="@+id/edtUsernameForget"
                         style="@style/Widget.AppCompat.EditText"
                         android:layout_width="match_parent"
@@ -279,7 +279,7 @@
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
-                    <ir.jahanmir.aspa.component.CustomEditText
+                    <ir.jahanmir.araxx.component.CustomEditText
                         android:id="@+id/edtMobileNumberForget"
                         style="@style/Widget.AppCompat.EditText"
                         android:layout_width="match_parent"
@@ -352,7 +352,7 @@
                     android:layout_margin="@dimen/box_size"
                     android:src="@drawable/button_image" />
 
-                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                <ir.jahanmir.araxx.component.PersianTextViewNormal
                     android:id="@+id/txtValue"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -378,7 +378,7 @@
 
 
         </LinearLayout>
-        <ir.jahanmir.aspa.component.PersianTextViewNormal
+        <ir.jahanmir.araxx.component.PersianTextViewNormal
             android:id="@+id/txtAspaCrm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

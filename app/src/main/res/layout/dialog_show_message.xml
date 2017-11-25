@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <ir.jahanmir.aspa.component.PersianTextViewNormal
+        <ir.jahanmir.araxx.component.PersianTextViewNormal
             android:id="@+id/txtMessageTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
         android:layout_marginTop="5dp"
         android:orientation="vertical">
 
-        <ir.jahanmir.aspa.component.PersianTextViewNormal
+        <ir.jahanmir.araxx.component.PersianTextViewNormal
             android:id="@+id/txtMessageDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

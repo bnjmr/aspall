@@ -50,7 +50,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtClubScoreTitle"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="5dp"
@@ -93,7 +93,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtClubScoreDate"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="5dp"
@@ -136,7 +136,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtClubScore"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -151,7 +151,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center_vertical|right"
@@ -180,7 +180,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtClubScoreDescription"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -196,7 +196,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginLeft="5dp"

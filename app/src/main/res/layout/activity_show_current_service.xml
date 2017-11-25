@@ -43,7 +43,7 @@
                         android:minHeight="40dp"
                         android:orientation="horizontal">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/tv_package_name"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
                         android:orientation="horizontal">
 
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtCurrentTrafficUnit"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -77,7 +77,7 @@
                             android:textSize="@dimen/size_font_very_big"
                             android:textStyle="bold" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtCurrentTraffic"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
                             android:textSize="@dimen/size_font_very_big"
                             android:textStyle="bold" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -112,7 +112,7 @@
                         android:orientation="horizontal">
 
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/lbl_remaining_days"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -129,7 +129,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtDay"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
                                 android:textSize="15sp"
                                 android:textStyle="bold" />
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/tv_remaining_days"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -168,7 +168,7 @@
                         android:gravity="center"
                         android:visibility="gone">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/expired"
@@ -195,7 +195,7 @@
                             android:layout_height="wrap_content">
 
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtTaraze_maliB"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -208,7 +208,7 @@
                                 android:visibility="gone" />
 
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtTaraze_maliUnit"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -218,7 +218,7 @@
 
                                 android:textStyle="bold" />
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/tv_taraze_mali"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -230,7 +230,7 @@
 
                         </LinearLayout>
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/taraze_mali"
@@ -251,7 +251,7 @@
                         android:minHeight="40dp"
                         android:orientation="horizontal">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/tv_connection_status"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -261,7 +261,7 @@
                             android:textSize="@dimen/size_font_very_big"
                             />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
@@ -297,7 +297,7 @@
                         android:minHeight="40dp"
                         android:visibility="visible">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -308,14 +308,14 @@
 
                             android:textStyle="bold" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtServiceTraffic"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="@dimen/size_font_very_big"
                             android:textColor="@color/white" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="end"
@@ -340,7 +340,7 @@
                         android:minHeight="40dp"
                         android:visibility="gone">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -350,14 +350,14 @@
                             android:textSize="@dimen/size_font_very_big"
                             android:textStyle="bold" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtRemaindFeshfeshe"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="@dimen/size_font_very_big"
                             android:textColor="@color/white" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="end"
@@ -381,7 +381,7 @@
                         android:minHeight="40dp"
                         android:visibility="gone">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -391,14 +391,14 @@
                             android:textSize="@dimen/size_font_very_big"
                             android:textStyle="bold" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtTrafficSplit"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="@dimen/size_font_very_big"
                             android:textColor="@color/white" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="end"
@@ -422,7 +422,7 @@
                         android:gravity="center"
                         android:minHeight="40dp">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -432,7 +432,7 @@
                             android:textSize="@dimen/size_font_very_big"
                             android:textStyle="bold" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtNonTransferTraffic"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -441,7 +441,7 @@
                             android:textSize="@dimen/size_font_very_big"
                             android:textColor="@color/white" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -464,7 +464,7 @@
                         android:gravity="center"
                         android:minHeight="40dp">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtTransferedTrafficUnit"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -474,7 +474,7 @@
                             android:textSize="@dimen/size_font_very_big"
                             android:textStyle="bold" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtTransferedTraffic"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -482,7 +482,7 @@
                             android:textSize="@dimen/size_font_very_big"
                             android:textColor="@color/white" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="end"
@@ -507,14 +507,14 @@
                         android:minHeight="40dp"
                         android:visibility="gone">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtCurrentService"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="@dimen/size_font_very_big"
                             android:textColor="@color/white" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -541,7 +541,7 @@
                 android:orientation="horizontal"
                 android:padding="5dp">
 
-                <ir.jahanmir.aspa.component.PersianTextViewThin
+                <ir.jahanmir.araxx.component.PersianTextViewThin
                     android:id="@+id/txtValue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -588,7 +588,7 @@
             app:matProg_barColor="@color/white"
             app:matProg_progressIndeterminate="true" />
 
-        <ir.jahanmir.aspa.component.PersianTextViewThin
+        <ir.jahanmir.araxx.component.PersianTextViewThin
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"

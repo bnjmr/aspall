@@ -55,7 +55,7 @@
                                 android:layout_weight="1"
                                 android:orientation="vertical">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtTicketTitle"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
                                 android:layout_weight="0.5"
                                 android:orientation="vertical">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                <ir.jahanmir.araxx.component.PersianTextViewNormal
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical|right"
@@ -99,7 +99,7 @@
                                 android:layout_weight="1"
                                 android:orientation="vertical">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtTicketDate"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
                                 android:layout_weight="0.5"
                                 android:orientation="vertical">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                <ir.jahanmir.araxx.component.PersianTextViewNormal
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical|right"
@@ -141,7 +141,7 @@
                                 android:layout_weight="1"
                                 android:orientation="vertical">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtTicketStatus"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -157,7 +157,7 @@
                                 android:layout_weight="0.5"
                                 android:orientation="vertical">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                <ir.jahanmir.araxx.component.PersianTextViewNormal
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical|right"
@@ -184,7 +184,7 @@
                                 android:layout_weight="1"
                                 android:orientation="vertical">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtTicketPriority"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -200,7 +200,7 @@
                                 android:layout_weight="0.5"
                                 android:orientation="vertical">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                <ir.jahanmir.araxx.component.PersianTextViewNormal
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical|right"
@@ -227,7 +227,7 @@
                                 android:layout_weight="1"
                                 android:orientation="vertical">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtCode"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -243,7 +243,7 @@
                                 android:layout_weight="0.5"
                                 android:orientation="vertical">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                <ir.jahanmir.araxx.component.PersianTextViewNormal
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical|right"
@@ -296,7 +296,7 @@
                     android:orientation="vertical"
                     android:visibility="visible">
 
-                    <ir.jahanmir.aspa.component.PersianTextViewThin
+                    <ir.jahanmir.araxx.component.PersianTextViewThin
                         android:id="@+id/txtCount"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -307,7 +307,7 @@
                         android:typeface="serif" />
                 </LinearLayout>
 
-                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                <ir.jahanmir.araxx.component.PersianTextViewNormal
                     android:id="@+id/txtMoreDetail"
                     android:layout_width="0dp"
                     android:layout_weight="1"

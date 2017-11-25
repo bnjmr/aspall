@@ -8,14 +8,14 @@
     android:padding="5dp"
     android:orientation="vertical">
 
-    <ir.jahanmir.aspa.component.PersianTextViewNormal
+    <ir.jahanmir.araxx.component.PersianTextViewNormal
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
         android:text="نظر سنجی" />
 
-    <ir.jahanmir.aspa.component.PersianTextViewNormal
+    <ir.jahanmir.araxx.component.PersianTextViewNormal
         android:id="@+id/txtQuestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         android:gravity="right" />
 
 
-    <ir.jahanmir.aspa.component.CustomEditText
+    <ir.jahanmir.araxx.component.CustomEditText
         android:id="@+id/edtComment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
 
 
     </android.support.v7.widget.RecyclerView>
-    <ir.jahanmir.aspa.component.PersianTextViewNormal
+    <ir.jahanmir.araxx.component.PersianTextViewNormal
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/red"
@@ -48,7 +48,7 @@
         android:padding="6dp"
         android:layout_gravity="right"
         android:gravity="right" />
-    <ir.jahanmir.aspa.component.PersianTextViewNormal
+    <ir.jahanmir.araxx.component.PersianTextViewNormal
         android:id="@+id/txtDone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

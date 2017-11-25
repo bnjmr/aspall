@@ -27,7 +27,7 @@
         android:layout_marginTop="20dp"
         android:orientation="vertical">
 
-        <ir.jahanmir.aspa.component.PersianTextViewNormal
+        <ir.jahanmir.araxx.component.PersianTextViewNormal
             android:id="@+id/txtDialogTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
             app:matProg_barColor="@color/text_color_items"
             app:matProg_progressIndeterminate="false" />
 
-        <ir.jahanmir.aspa.component.PersianTextViewThin
+        <ir.jahanmir.araxx.component.PersianTextViewThin
             android:id="@+id/txtLoading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
             android:typeface="serif" />
     </LinearLayout>
 
-    <ir.jahanmir.aspa.component.PersianTextViewThin
+    <ir.jahanmir.araxx.component.PersianTextViewThin
         android:id="@+id/txtShowErrorMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

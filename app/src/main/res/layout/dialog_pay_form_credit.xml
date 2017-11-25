@@ -60,7 +60,7 @@
             app:fontFile="fonts/sl.ttf" />
     </LinearLayout>
 
-    <ir.jahanmir.aspa.component.PersianTextViewThin
+    <ir.jahanmir.araxx.component.PersianTextViewThin
         android:id="@+id/txtShowErrorMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

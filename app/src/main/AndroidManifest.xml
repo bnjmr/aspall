@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ir.jahanmir.aspa">
+    package="ir.jahanmir.araxx">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -14,14 +14,14 @@
 
     <application
 
-        android:name="ir.jahanmir.aspa.G"
+        android:name="ir.jahanmir.araxx.G"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name="ir.jahanmir.aspa.ActivitySplash"
+            android:name="ir.jahanmir.araxx.ActivitySplash"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
@@ -32,157 +32,157 @@
         </activity>
 
         <activity
-            android:name="ir.jahanmir.aspa.ActivityStarter"
+            android:name="ir.jahanmir.araxx.ActivityStarter"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <activity
-            android:name="ir.jahanmir.aspa.ActivitySearchISP"
+            android:name="ir.jahanmir.araxx.ActivitySearchISP"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <activity
-            android:name="ir.jahanmir.aspa.ActivityLogin"
+            android:name="ir.jahanmir.araxx.ActivityLogin"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityMain0"
+            android:name="ir.jahanmir.araxx.ActivityMain0"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityPayments"
+            android:name="ir.jahanmir.araxx.ActivityPayments"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustNothing|stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowFactors"
+            android:name="ir.jahanmir.araxx.ActivityShowFactors"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowConnections"
+            android:name="ir.jahanmir.araxx.ActivityShowConnections"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowTickets"
+            android:name="ir.jahanmir.araxx.ActivityShowTickets"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustNothing|stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowTicketDetails"
+            android:name="ir.jahanmir.araxx.ActivityShowTicketDetails"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowGraph"
+            android:name="ir.jahanmir.araxx.ActivityShowGraph"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowUserInfo"
+            android:name="ir.jahanmir.araxx.ActivityShowUserInfo"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowNews"
+            android:name="ir.jahanmir.araxx.ActivityShowNews"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowNotify"
+            android:name="ir.jahanmir.araxx.ActivityShowNotify"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowFeshfeshe"
+            android:name="ir.jahanmir.araxx.ActivityShowFeshfeshe"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowClubScores"
+            android:name="ir.jahanmir.araxx.ActivityShowClubScores"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowFactorDetail"
+            android:name="ir.jahanmir.araxx.ActivityShowFactorDetail"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivitySendTiket"
+            android:name="ir.jahanmir.araxx.ActivitySendTiket"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowCurrentService"
+            android:name="ir.jahanmir.araxx.ActivityShowCurrentService"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowSingleNews"
+            android:name="ir.jahanmir.araxx.ActivityShowSingleNews"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
 
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowSingleNotify"
+            android:name="ir.jahanmir.araxx.ActivityShowSingleNotify"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <activity
-            android:name="ir.jahanmir.aspa.ActivityChargeOnline"
+            android:name="ir.jahanmir.araxx.ActivityChargeOnline"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityChargeOnlineAddiBashgah"
+            android:name="ir.jahanmir.araxx.ActivityChargeOnlineAddiBashgah"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityChargeOnlineGroup"
+            android:name="ir.jahanmir.araxx.ActivityChargeOnlineGroup"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityChargeOnlineGroupPackage"
+            android:name="ir.jahanmir.araxx.ActivityChargeOnlineGroupPackage"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityChargeOnlineCategory"
+            android:name="ir.jahanmir.araxx.ActivityChargeOnlineCategory"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowPackageFactorDetail"
+            android:name="ir.jahanmir.araxx.ActivityShowPackageFactorDetail"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowBankList"
+            android:name="ir.jahanmir.araxx.ActivityShowBankList"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityChargeOnlineTamdid"
+            android:name="ir.jahanmir.araxx.ActivityChargeOnlineTamdid"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="ir.jahanmir.aspa.ActivityChangePassword"
+            android:name="ir.jahanmir.araxx.ActivityChangePassword"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <activity
-            android:name="ir.jahanmir.aspa.ActivityUploadDocuments"
+            android:name="ir.jahanmir.araxx.ActivityUploadDocuments"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <activity
-            android:name="ir.jahanmir.aspa.ActivityRegisterForm"
+            android:name="ir.jahanmir.araxx.ActivityRegisterForm"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <activity
-            android:name="ir.jahanmir.aspa.ActivityShowTrafficeSplite"
+            android:name="ir.jahanmir.araxx.ActivityShowTrafficeSplite"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity android:name="ir.jahanmir.aspa.ActivityBrowser" />
+        <activity android:name="ir.jahanmir.araxx.ActivityBrowser" />
 
         <!-- Receiver -->
         <receiver
-            android:name="ir.jahanmir.aspa.classes.CheckNotification"
+            android:name="ir.jahanmir.araxx.classes.CheckNotification"
             android:enabled="true" />
         <receiver
-            android:name="ir.jahanmir.aspa.classes.NetworkChangeReceiver"
+            android:name="ir.jahanmir.araxx.classes.NetworkChangeReceiver"
             android:label="NetworkChangeReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="ir.jahanmir.aspa.classes.BootCompleteReceiver">
+        <receiver android:name="ir.jahanmir.araxx.classes.BootCompleteReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.QUICKBOOT_POWERON" />
@@ -190,12 +190,12 @@
         </receiver>
 
         <!-- Firebase Notifications -->
-        <service android:name="ir.jahanmir.aspa.classes.FirebaseMessagingService">
+        <service android:name="ir.jahanmir.araxx.classes.FirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="ir.jahanmir.aspa.classes.firebaseInstanceIDService">
+        <service android:name="ir.jahanmir.araxx.classes.firebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
@@ -218,6 +218,9 @@
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
         -->
 
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="aa23e2358df2f4f69e24a6d9e42bb00559073db0" />
     </application>
 
 </manifest>

@@ -26,7 +26,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <ir.jahanmir.aspa.component.PersianTextViewNormal
+            <ir.jahanmir.araxx.component.PersianTextViewNormal
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
@@ -81,7 +81,7 @@
                                 android:layout_gravity="center"
                                 android:src="@drawable/button_image" />
 
-                            <ir.jahanmir.aspa.component.PersianTextViewThin
+                            <ir.jahanmir.araxx.component.PersianTextViewThin
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -107,7 +107,7 @@
                                 android:src="@drawable/button_image" />
                         </LinearLayout>
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
@@ -139,7 +139,7 @@
                             android:textSize="@dimen/size_font_default"
                             app:typeface="biran.ttf" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"

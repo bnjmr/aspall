@@ -119,7 +119,7 @@
                 android:layout_marginBottom="8dp"
                 android:background="@color/color_back">
 
-                <ir.jahanmir.aspa.component.CustomEditText
+                <ir.jahanmir.araxx.component.CustomEditText
                     android:id="@+id/edtTicketSubject"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -146,7 +146,7 @@
                 android:orientation="horizontal"
                 android:padding="3dp">
 
-                <ir.jahanmir.aspa.component.CustomEditText
+                <ir.jahanmir.araxx.component.CustomEditText
                     android:id="@+id/edtTicketDescription"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -235,7 +235,7 @@
                             android:gravity="right"
                             tools:listitem="@layout/s_item_white" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"

@@ -48,7 +48,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtConnectionStartDate"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="match_parent"
 
                             android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtConnectionExpireDate"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="16dp"
@@ -141,7 +141,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtConnectionDuration"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -157,7 +157,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="match_parent"
 
                             android:layout_height="wrap_content"
@@ -187,7 +187,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtConnectionSend"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -204,7 +204,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="match_parent"
 
                             android:layout_height="wrap_content"
@@ -234,7 +234,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtConnectionReceive"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -250,7 +250,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="match_parent"
 
                             android:layout_height="wrap_content"
@@ -280,7 +280,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtConnectionTrafficUsed"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -296,7 +296,7 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="16dp"

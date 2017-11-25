@@ -48,7 +48,7 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtTicketDescription"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
                             android:layout_marginLeft="3dp"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtTicketState"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                             android:layout_marginRight="3dp"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtTicketDate"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"

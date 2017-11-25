@@ -30,7 +30,7 @@
                 android:layout_height="match_parent" />
 
 
-            <ir.jahanmir.aspa.component.PersianTextViewNormal
+            <ir.jahanmir.araxx.component.PersianTextViewNormal
                 android:id="@+id/txtShowMessage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
             app:matProg_barColor="@color/white"
             app:matProg_progressIndeterminate="true" />
 
-        <ir.jahanmir.aspa.component.PersianTextViewThin
+        <ir.jahanmir.araxx.component.PersianTextViewThin
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"

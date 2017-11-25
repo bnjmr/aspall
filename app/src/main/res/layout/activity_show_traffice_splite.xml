@@ -46,7 +46,7 @@
                         android:paddingRight="10dp"
                         android:paddingTop="10dp">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewThin
+                        <ir.jahanmir.araxx.component.PersianTextViewThin
                             android:id="@+id/txtCurrentTrafficSpliteExpireDate"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
                             android:textColor="@color/black"
                             android:textSize="@dimen/size_font_very_small" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewThin
+                        <ir.jahanmir.araxx.component.PersianTextViewThin
                             android:id="@+id/txtCurrentTrafficSplitTraffic"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
                                 android:layout_margin="@dimen/box_size"
                                 android:src="@drawable/button_image" />
 
-                            <ir.jahanmir.aspa.component.PersianTextViewThin
+                            <ir.jahanmir.araxx.component.PersianTextViewThin
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
@@ -131,7 +131,7 @@
                                 android:layout_margin="@dimen/box_size"
                                 android:src="@drawable/button_image" />
 
-                            <ir.jahanmir.aspa.component.PersianTextViewThin
+                            <ir.jahanmir.araxx.component.PersianTextViewThin
                                 android:id="@+id/txtPackagePrice"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -186,7 +186,7 @@
                 </LinearLayout>
 
 
-                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                <ir.jahanmir.araxx.component.PersianTextViewNormal
                     android:id="@+id/txtShowMessage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

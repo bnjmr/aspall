@@ -14,7 +14,7 @@
           android:layout_marginLeft="6dp"
           android:src="@drawable/ic_expand_more_black_24dp" />-->
 
-    <ir.jahanmir.aspa.component.PersianTextViewBold
+    <ir.jahanmir.araxx.component.PersianTextViewBold
         android:id="@+id/txtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

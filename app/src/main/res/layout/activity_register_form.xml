@@ -126,7 +126,7 @@
                         android:gravity="center"
                         android:orientation="horizontal">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/edtPrePhoneNumber"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
                             android:textSize="@dimen/size_font_very_very_small" />
 
 
-                        <ir.jahanmir.aspa.component.CustomEditText
+                        <ir.jahanmir.araxx.component.CustomEditText
                             android:id="@+id/edtRanzheNumber"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -233,7 +233,7 @@
                                 android:orientation="horizontal">
 
 
-                                <ir.jahanmir.aspa.component.CustomEditText
+                                <ir.jahanmir.araxx.component.CustomEditText
                                     android:id="@+id/edtName"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
@@ -272,7 +272,7 @@
                                 android:orientation="horizontal">
 
 
-                                <ir.jahanmir.aspa.component.CustomEditText
+                                <ir.jahanmir.araxx.component.CustomEditText
                                     android:id="@+id/edtFamilyName"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
@@ -318,7 +318,7 @@
                                 android:gravity="center"
                                 android:orientation="horizontal">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                <ir.jahanmir.araxx.component.PersianTextViewNormal
                                     android:id="@+id/edtPreTelNumber"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
@@ -334,7 +334,7 @@
                                     android:textSize="@dimen/size_font_very_very_small" />
 
 
-                                <ir.jahanmir.aspa.component.CustomEditText
+                                <ir.jahanmir.araxx.component.CustomEditText
                                     android:id="@+id/edtTelNumber"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
@@ -372,7 +372,7 @@
                                 android:gravity="center"
                                 android:orientation="horizontal">
 
-                                <ir.jahanmir.aspa.component.CustomEditText
+                                <ir.jahanmir.araxx.component.CustomEditText
                                     android:id="@+id/edtMobileNumber"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
@@ -396,7 +396,7 @@
                     </LinearLayout>
 
 
-                    <ir.jahanmir.aspa.component.CustomEditText
+                    <ir.jahanmir.araxx.component.CustomEditText
                         android:id="@+id/edtAddress"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -434,7 +434,7 @@
                             android:layout_margin="@dimen/box_size"
                             android:src="@drawable/button_image" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/txtValue"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"

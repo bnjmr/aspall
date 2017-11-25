@@ -26,7 +26,7 @@
             android:layout_gravity="left|center_vertical"
             android:background="@mipmap/ic_arow_back" />
 
-        <ir.jahanmir.aspa.component.PersianTextViewNormal
+        <ir.jahanmir.araxx.component.PersianTextViewNormal
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"

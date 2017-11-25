@@ -61,7 +61,7 @@
                     android:visibility="gone">
 
                     <fragment
-                        android:name="ir.jahanmir.aspa.fragment.FragmentSendTicket"
+                        android:name="ir.jahanmir.araxx.fragment.FragmentSendTicket"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         tools:layout="@layout/fragment_send_ticket" />
@@ -85,7 +85,7 @@
 
             </LinearLayout>
 
-            <ir.jahanmir.aspa.component.PersianTextViewNormal
+            <ir.jahanmir.araxx.component.PersianTextViewNormal
                 android:id="@+id/txtShowMessage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

@@ -184,7 +184,7 @@
             android:textColor="@color/colorAccent"
             android:textSize="@dimen/size_font_very_very_small"
             android:typeface="sans" />
-        <!--<ir.aspacrm.my.app.aspa.component.PersianTextViewNormal-->
+        <!--<ir.aspacrm.my.app.araxx.component.PersianTextViewNormal-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="wrap_content"-->
         <!--app:fontFile="fonts/biran.ttf"-->

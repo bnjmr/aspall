@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ir.jahanmir.aspa.component.PersianTextViewNormal
+            <ir.jahanmir.araxx.component.PersianTextViewNormal
                 android:id="@+id/txtMessageTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
 
         </WebView>
 
-        <ir.jahanmir.aspa.component.PersianTextViewNormal
+        <ir.jahanmir.araxx.component.PersianTextViewNormal
             android:id="@+id/txtVer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <ir.jahanmir.aspa.component.PersianTextViewNormal
+            <ir.jahanmir.araxx.component.PersianTextViewNormal
                 android:id="@+id/txtClose"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <ir.jahanmir.aspa.component.PersianTextViewNormal
+            <ir.jahanmir.araxx.component.PersianTextViewNormal
                 android:id="@+id/txtUpdate"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

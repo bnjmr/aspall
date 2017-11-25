@@ -39,7 +39,7 @@
         android:layout_marginTop="5dp"
         android:orientation="vertical">
 
-        <ir.jahanmir.aspa.component.PersianTextViewNormal
+        <ir.jahanmir.araxx.component.PersianTextViewNormal
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -48,7 +48,7 @@
             android:textSize="@dimen/size_font_small"
             android:typeface="serif" />
 
-        <ir.jahanmir.aspa.component.PersianTextViewNormal
+        <ir.jahanmir.araxx.component.PersianTextViewNormal
             android:id="@+id/txtMessage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

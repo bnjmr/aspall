@@ -83,7 +83,7 @@
                                     android:alpha=".4"
                                     android:background="@drawable/ic_calendar" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                <ir.jahanmir.araxx.component.PersianTextViewNormal
                                     android:id="@+id/txtStartDate"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                <ir.jahanmir.araxx.component.PersianTextViewNormal
                                     android:id="@+id/btnStart"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
                                     android:background="@drawable/ic_calendar"
                                     android:padding="6dp" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                <ir.jahanmir.araxx.component.PersianTextViewNormal
                                     android:id="@+id/txtEndDate"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
@@ -150,7 +150,7 @@
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                <ir.jahanmir.araxx.component.PersianTextViewNormal
                                     android:id="@+id/btnEndDate"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -190,7 +190,7 @@
                             android:layout_margin="@dimen/box_size"
                             android:src="@drawable/button_image" />
 
-                        <ir.jahanmir.aspa.component.PersianTextViewNormal
+                        <ir.jahanmir.araxx.component.PersianTextViewNormal
                             android:id="@+id/btnFilter"
                             android:layout_width="0dp"
                             android:layout_weight="1"
@@ -235,7 +235,7 @@
                     android:layout_weight="1">
 
 
-                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                    <ir.jahanmir.araxx.component.PersianTextViewNormal
                         android:id="@+id/txtShowMessage"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

@@ -56,7 +56,7 @@
                                     android:orientation="horizontal"
                                     android:padding="10dp">
 
-                                    <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                    <ir.jahanmir.araxx.component.PersianTextViewNormal
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
@@ -101,7 +101,7 @@
                                             android:gravity="center"
                                             android:orientation="horizontal">
 
-                                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:gravity="center"
@@ -157,7 +157,7 @@
                                                 android:gravity="center"
                                                 android:orientation="horizontal">
 
-                                                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                                                <ir.jahanmir.araxx.component.PersianTextViewNormal
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:gravity="center"
@@ -189,7 +189,7 @@
                 </LinearLayout>
 
 
-                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                <ir.jahanmir.araxx.component.PersianTextViewNormal
                     android:id="@+id/txtShowMessage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

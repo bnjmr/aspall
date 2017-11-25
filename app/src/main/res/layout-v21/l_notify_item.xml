@@ -48,7 +48,7 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewThin
+                            <ir.jahanmir.araxx.component.PersianTextViewThin
                                 android:id="@+id/txtNotifyMessage"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"

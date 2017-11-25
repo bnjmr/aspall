@@ -48,7 +48,7 @@
                 <include layout="@layout/lay_back" />
             </LinearLayout>
 
-            <ir.jahanmir.aspa.component.PersianTextViewNormal
+            <ir.jahanmir.araxx.component.PersianTextViewNormal
                 android:id="@+id/txtShowMessage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

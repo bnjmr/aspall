@@ -57,7 +57,7 @@
                             android:orientation="vertical">
 
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtNotifyTitle"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
                                 android:textSize="@dimen/size_font_very_very_small"
                                 android:textStyle="bold" />
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtNewsBodyText"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                         android:layout_gravity="left"
                         android:visibility="visible">
 
-                        <ir.jahanmir.aspa.component.PersianTextViewThin
+                        <ir.jahanmir.araxx.component.PersianTextViewThin
                             android:id="@+id/txtDate"
                             android:layout_gravity="left"
                             android:layout_width="wrap_content"
@@ -133,7 +133,7 @@
                     android:layout_margin="@dimen/box_size"
                     android:src="@drawable/button_image" />
 
-                <ir.jahanmir.aspa.component.PersianTextViewBold
+                <ir.jahanmir.araxx.component.PersianTextViewBold
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"

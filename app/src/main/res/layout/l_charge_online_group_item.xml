@@ -9,7 +9,7 @@
     android:background="@color/color_back_btn_orange"
     android:orientation="vertical">
 
-    <ir.jahanmir.aspa.component.PersianTextViewThin
+    <ir.jahanmir.araxx.component.PersianTextViewThin
         android:id="@+id/txtGroupName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

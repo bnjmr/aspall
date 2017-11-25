@@ -48,7 +48,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtPaymentDate"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center_vertical|right"
@@ -89,7 +89,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtPaymentType"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center_vertical|right"
@@ -130,7 +130,7 @@
                             android:layout_weight="1"
                             android:orientation="horizontal">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtUnit"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -139,7 +139,7 @@
                                 android:text="تومان"
                                 android:textColor="@color/text_color_items" />
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:id="@+id/txtPaymentPrice"
                                 android:layout_width="match_parent"
 
@@ -156,7 +156,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <ir.jahanmir.aspa.component.PersianTextViewNormal
+                            <ir.jahanmir.araxx.component.PersianTextViewNormal
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center_vertical|right"

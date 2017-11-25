@@ -58,7 +58,7 @@
                                     android:orientation="horizontal"
                                     android:padding="3dp">
 
-                                    <ir.jahanmir.aspa.component.PersianTextViewThin
+                                    <ir.jahanmir.araxx.component.PersianTextViewThin
                                         android:id="@+id/txtFactorDes"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
@@ -85,11 +85,11 @@
                                 android:gravity="right|center_vertical"
                                 android:minHeight="40dp">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtFactorCode"
                                     style="@style/txtFactorDetailValue" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     style="@style/txtFactorDetailTitle"
                                     android:text="شماره فاکتور" />
 
@@ -102,11 +102,11 @@
                                 android:gravity="right|center_vertical"
                                 android:minHeight="40dp">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtFactorStartDate"
                                     style="@style/txtFactorDetailValue" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     style="@style/txtFactorDetailTitle"
                                     android:text="تاریخ شروع" />
 
@@ -119,11 +119,11 @@
                                 android:gravity="right|center_vertical"
                                 android:minHeight="40dp">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtFactorGheymatPaye"
                                     style="@style/txtFactorDetailValue" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     style="@style/txtFactorDetailTitle"
                                     android:text="قیمت پایه" />
 
@@ -136,11 +136,11 @@
                                 android:gravity="right|center_vertical"
                                 android:minHeight="40dp">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtFactorGheymat"
                                     style="@style/txtFactorDetailValue" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     style="@style/txtFactorDetailTitle"
                                     android:text="قیمت" />
 
@@ -153,11 +153,11 @@
                                 android:gravity="right|center_vertical"
                                 android:minHeight="40dp">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtFactorMaliat"
                                     style="@style/txtFactorDetailValue" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     style="@style/txtFactorDetailTitle"
                                     android:text="مالیات" />
 
@@ -170,11 +170,11 @@
                                 android:gravity="right|center_vertical"
                                 android:minHeight="40dp">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtFactorTakhfif"
                                     style="@style/txtFactorDetailValue" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     style="@style/txtFactorDetailTitle"
                                     android:text="تخفیف" />
 
@@ -187,11 +187,11 @@
                                 android:gravity="right|center_vertical"
                                 android:minHeight="40dp">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtFactorMablaghePardakhti"
                                     style="@style/txtFactorDetailValue" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     style="@style/txtFactorDetailTitle"
                                     android:text="مبلغ پرداختی" />
 
@@ -204,11 +204,11 @@
                                 android:gravity="right|center_vertical"
                                 android:minHeight="40dp">
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     android:id="@+id/txtDes"
                                     style="@style/txtFactorDetailValue" />
 
-                                <ir.jahanmir.aspa.component.PersianTextViewThin
+                                <ir.jahanmir.araxx.component.PersianTextViewThin
                                     style="@style/txtFactorDetailTitle"
                                     android:text="توشیحات" />
 
@@ -245,7 +245,7 @@
                                 android:layout_gravity="center"
                                 android:layout_margin="@dimen/box_size"
                                 android:src="@drawable/button_image" />
-                            <ir.jahanmir.aspa.component.PersianTextViewThin
+                            <ir.jahanmir.araxx.component.PersianTextViewThin
                                 android:id="@+id/txtPay"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
@@ -267,7 +267,7 @@
                 </FrameLayout>
             </LinearLayout>
 
-            <ir.jahanmir.aspa.component.PersianTextViewNormal
+            <ir.jahanmir.araxx.component.PersianTextViewNormal
                 android:id="@+id/txtShowMessage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

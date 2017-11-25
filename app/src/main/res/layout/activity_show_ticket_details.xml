@@ -82,7 +82,7 @@
             android:background="@color/color_payments"
             android:orientation="horizontal">
 
-            <ir.jahanmir.aspa.component.CustomEditText
+            <ir.jahanmir.araxx.component.CustomEditText
                 android:id="@+id/edtTicketReplay"
                 android:layout_width="0dp"
                 android:layout_weight="1"

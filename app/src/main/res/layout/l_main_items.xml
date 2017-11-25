@@ -30,7 +30,7 @@
 
 
 
-        <ir.jahanmir.aspa.component.PersianTextViewNormal
+        <ir.jahanmir.araxx.component.PersianTextViewNormal
             android:id="@+id/txtName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
             android:layout_gravity="bottom|left"
             android:background="@drawable/ic_notify_count" />
 
-        <ir.jahanmir.aspa.component.PersianTextViewThin
+        <ir.jahanmir.araxx.component.PersianTextViewThin
             android:id="@+id/txtCount"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

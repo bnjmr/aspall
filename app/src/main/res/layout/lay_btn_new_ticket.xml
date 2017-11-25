@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/box_size"
             android:src="@drawable/button_image" />
-        <ir.jahanmir.aspa.component.PersianTextViewBold
+        <ir.jahanmir.araxx.component.PersianTextViewBold
             android:id="@+id/txtValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

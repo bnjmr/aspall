@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="ir.jahanmir.aspa.araax.ActivityMain0">
+    tools:context="ir.jahanmir.araxx.araax.ActivityMain0">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_exit" />
 
-                <ir.jahanmir.aspa.component.PersianTextViewNormal
+                <ir.jahanmir.araxx.component.PersianTextViewNormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -64,7 +64,7 @@
                 android:orientation="horizontal">
 
 
-                <ir.jahanmir.aspa.component.PersianTextViewThin
+                <ir.jahanmir.araxx.component.PersianTextViewThin
                     android:id="@+id/txtName"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
